@@ -13,7 +13,7 @@ const Chat = () => {
   const [users, setUsers] = useState('');
   const [message, setMessage] = useState('');
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = 'http://localhost:5000';
+  const ENDPOINT = 'https://chitchat-backend-three.vercel.app';
   const location = useLocation();
   const socketRef = useRef(null);
 
